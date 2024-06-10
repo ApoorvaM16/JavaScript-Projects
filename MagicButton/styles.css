@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgba(165, 42, 42, 0.61);
+}
+
+.container{
+    height: 40vh;
+    width: 40vh;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    background-color: rgba(165, 42, 42, 0.5);
+}
+
+#btn{
+    padding: 1rem;
+    font-size: 3rem;
+    /* width:5rem; */
+    border: none;
+    border-radius: 1rem;
+    /* background-color: brown; */
+    /* color: #f5ebeb; */
+    cursor: pointer;
+}
+
+.even{
+    background-color: rgb(57, 161, 57);
+    color:#000;
+}
+
+.odd{
+    background-color: rgb(31, 1, 66);
+    color:#fff;
+}
